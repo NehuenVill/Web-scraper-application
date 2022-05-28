@@ -1,0 +1,28 @@
+body, html{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body{
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+#footer{
+    height: 20%;
+}
