@@ -1,28 +1,39 @@
-body, html{
+* {
+    box-sizing: border-box;
     margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    padding: 0;
 }
 
 .selector-for-some-widget {
     box-sizing: content-box;
-  }
+}
 
 div{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #body{
     flex-direction: column;
     width: 100%;
-    height: 80%;
+    height: 90%;
+    min-height: 100vh;
 }
 
 #footer{
-    height: 20%;
+    height: 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0d6efd;
+    text-align: center;
+    color: white !important;
+}
+
+nav{
+    position: fixed !important;
+    width: 100%;
 }
