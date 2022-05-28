@@ -37,3 +37,18 @@ nav{
     position: fixed !important;
     width: 100%;
 }
+
+#list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ol{
+    width: 100%;
+}
+
+.ScrapingProcess{
+    margin-left: 30px;
+}
