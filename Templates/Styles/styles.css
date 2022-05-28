@@ -42,7 +42,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 ol{
@@ -51,4 +50,8 @@ ol{
 
 .ScrapingProcess{
     margin-left: 30px;
+}
+
+.title{
+    padding-top: 100px;
 }
