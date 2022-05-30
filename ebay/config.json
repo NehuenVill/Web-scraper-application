@@ -1,0 +1,4 @@
+{
+	"output_data_folder"             : "./output_data/",
+	"brands_input_urls_file"         : "input_data/brands_urls_to_scrape_tory_burch.csv"
+}
